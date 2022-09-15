@@ -14,8 +14,9 @@
 
         <?php
 
+        // echo $results;
         foreach ($results as $object) {
-            echo $object->password . "<br>";
+            echo $object->username . "<br>";
         }
         ?>
     </h1>
